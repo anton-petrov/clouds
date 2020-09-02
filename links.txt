@@ -1,0 +1,4 @@
+Полезные ссылки
+
+1. Интерактивная обучалка по git --> https://learngitbranching.js.org/?locale=ru_RU
+2. ...
