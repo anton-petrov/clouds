@@ -1,0 +1,11 @@
+docker create volume my-volume
+docker volume ls
+docker volume inspect my-vol
+docker run --name test1 --rm  -i -t --mount source=my-volume,target=/data ubuntu bash
+cd /data
+создать файлы
+сохранить
+docker start <container id>
+docker exec -it <container id> bash
+docker volume rm my-volume
+docker rm 

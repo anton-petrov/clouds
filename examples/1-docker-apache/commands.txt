@@ -1,0 +1,2 @@
+docker build -t my-apache2 .
+docker run  -p 80:80 --name my-apache2-1  my-apache2

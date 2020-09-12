@@ -1,0 +1,2 @@
+docker run -it -d python:3.9.0rc1 /bin/bash
+docker exec -it 00ed4d2e86ee bash
